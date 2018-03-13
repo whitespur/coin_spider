@@ -13,8 +13,12 @@ https://www.coingecko.com/en
 ## 2项目详情表coin_detail
 项目的详细信息
 例如：
-https://www.coingecko.com/en/coins/bitcoin/developer#panel
-从Code Repository获取项目的github地址
+访问页面https://www.coingecko.com/en/coins/bitcoin/developer#panel
+从Code Repository标签获取项目的github地址
+或者
+访问页面http://www.tokenclub.com/#/coin/bitcoin
+发送请求https://block.cc/api/v1/coin/get?coin=bitcoin
+解析json获取github地址
 
 ## 3项目代码基础表coin_git
 从https://github.com/bitcoin/bitcoin
